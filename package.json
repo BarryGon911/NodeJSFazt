@@ -8,16 +8,23 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "BarryGon911",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "body-parser": "^2.2.0",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
+    "env-var": "^7.5.0",
     "express": "^5.1.0",
+    "inquirer": "^12.6.3",
+    "json-server": "^1.0.0-beta.3",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
     "bootstrap": "^5.3.7",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
   }
 }
